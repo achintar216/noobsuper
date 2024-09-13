@@ -1,5 +1,5 @@
 .texts{
-  font-family: swald, sans-serif;
+  font-family: Lora, sans-serif;
   font-weight: 300;
   font-size: 3em;
   
@@ -35,4 +35,36 @@
   padding: 8px;
   text-decoration: none;
   color: #007bff;
+}
+.demoimg{
+  width: 100px;
+  height: 135px;
+}
+
+#nlogo{
+
+text-align: center;
+  
+  
+}
+.noveltitals{
+  float: 
+  
+}
+.container {
+    display: grid; 
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.p1{
+ font-size:20px;
+  font-family:Oswald ;
+}
+
+.noveltitals1{
+  font-size: 16px;
+   font-family:Oswald ;
+  
 }
