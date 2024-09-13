@@ -23,7 +23,12 @@
   text-align: left;
   font-size: 32px;
   cursor: pointer;
-  border: 2px;
+ box-shadow: 2px 2px 2px #9C9E9E , -2px -2px 2px #9C9E9E; 
+  
+}
+.menu-btn:hover{
+    box-shadow: 5px 5px 5px #7B7C7C , -5px -5px 5px #7B7C7C; 
+  
 }
 
 .submenu {
