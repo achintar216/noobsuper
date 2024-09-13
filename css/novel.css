@@ -21,8 +21,9 @@
   padding: 10px;
   width: 100%;
   text-align: left;
-  font-size: 16px;
+  font-size: 32px;
   cursor: pointer;
+  border: 2px;
 }
 
 .submenu {
@@ -34,8 +35,18 @@
   display: block;
   padding: 8px;
   text-decoration: none;
-  color: #007bff;
+  color: green;
+   font-family: 'Minecraft', sans-serif;
+   font-size: 2em;
+   font-weight: 400;
 }
+.submenu a:hover {
+  border: 1px solid yellow;
+  font-size: 3em;
+  
+  
+}
+
 .demoimg{
   width: 100px;
   height: 135px;
