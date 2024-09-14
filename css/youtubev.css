@@ -45,12 +45,12 @@
   text-decoration: none;
   color: green;
    font-family: 'Minecraft', sans-serif;
-   font-size: 2em;
+   font-size: 2rem;
    font-weight: 400;
 }
 .submenu a:hover {
   border: 1px solid yellow;
-  font-size: 3em;
+  font-size: 3rem;
   
   
 }

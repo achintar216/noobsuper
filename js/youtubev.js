@@ -1,4 +1,4 @@
-document.querySelectorAll('.menu-btn').forEach(button => {
+document.querySelectorAll('.menu_btn').forEach(button => {
   button.addEventListener('click', () => {
     const submenu = button.nextElementSibling;
 
