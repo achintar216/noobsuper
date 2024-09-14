@@ -32,10 +32,10 @@
 }
 
 .submenu {
-  display: none;
-  padding-left: 20px;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
 }
-
 .submenu a {
   display: block;
   padding: 8px;
@@ -86,25 +86,29 @@ background-color:black;
 }
 
 /*this is a gpt code*/
-.modal {
-    display: none; 
-    position: fixed; 
-    z-index: 1; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    background-color: rgba(0, 0, 0, 0.5); }
-    
-
-.modal-content {
-    background-color: white;
-    margin: 15% auto; 
-    padding: 20px;
-    width: 50%; 
-    text-align: center; 
+.submenu[style="display: block;"] {
+  max-height: 80px; /* Adjust as per the height of your content */
 }
 
+/* Modal CSS (example) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Adjust width */
+}
 .close {
     color: #aaa;
     float: right;
